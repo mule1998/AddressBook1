@@ -10,6 +10,8 @@ namespace DAY_23_AddressBook
 
             AddressBook.AddContact();
             AddressBook.ContactsDisplay();
+            AddressBook.EditContact();
+            AddressBook.ContactsDisplay();
         }
     }
 }
