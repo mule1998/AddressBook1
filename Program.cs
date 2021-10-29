@@ -8,7 +8,7 @@ namespace DAY_23_AddressBook
         {
             Console.WriteLine("Welcome to Address book program");
 
-            AddressBook.AddContact();
+            AddressBook.addAddressBook();
             Console.WriteLine("\n");
             AddressBook.ContactsDisplay();
             Console.WriteLine("\n");
@@ -16,7 +16,9 @@ namespace DAY_23_AddressBook
             Console.WriteLine("\n");
             AddressBook.ContactsDisplay();
             Console.WriteLine("\n");
-            AddressBook.DeleteContact();
+            AddressBook.ContactsDisplay();
+            AddressBook.ContactsDisplay();
+            AddressBook.ContactsDisplay();
             AddressBook.ContactsDisplay();
         }
     }
